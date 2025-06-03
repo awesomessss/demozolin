@@ -1,0 +1,6 @@
+СУС 2.5
+# На HQ-CLI:
+mv /home/AU-TEAM.IRPO/administrator/Downloads/LocalSettings.php /home/sshuser
+scp -P 3015 /home/sshuser/LocalSettings.php sshuser@192.168.23.14:/home/sshuser
+# На BR-srv:
+mv /home/sshuser/LocalSettings.php /root
